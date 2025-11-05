@@ -1,3 +1,17 @@
+// In the context of databases, seeding refers to the process of inserting initial or sample data into a database — usually right after it’s created or migrated.
+
+// This seed data can include:
+
+// Default users or admin accounts
+
+// Configuration settings
+
+// Example records for testing or development
+
+// Example:
+// In a Node.js + MongoDB project, you might run a seed.js script to insert demo products or users into the database before starting the app.
+
+
 import bcrypt from 'bcrypt';
 import postgres from 'postgres';
 import { invoices, customers, revenue, users } from '../lib/placeholder-data';
